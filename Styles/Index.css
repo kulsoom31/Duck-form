@@ -1,0 +1,88 @@
+ html {
+    background-color: #9DBEBB;
+}
+ .img {
+    justify-content: right;}
+ body {
+    margin: 100px;
+    background: rgb(180,65,58);
+    background: linear-gradient(to right,
+     #BE0909 60%, #FFB039 60%, #FFB039 100%);
+    width: 954px;
+    height: 594px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ form {
+    display: flex;
+    flex-direction: column;
+}
+ input:required {
+    border-color: #FFB039;
+    border-width: 1px;
+}
+ input:required:invalid {
+    border-color: #FDFFFF;
+}
+.label {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FEFFFF;
+    margin-left: 65px;
+    margin-right: 20px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+ input {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: 0.3em;
+    color:#FDFFFF;
+    background-color: #BE0909;
+    margin-left: 65px;
+    margin-top: 5px;
+    border-bottom: 1px solid #FDFFFF;
+    width: 100%;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    transition-duration: 1s;
+}
+ input:hover {
+    background-color:#FFB039;
+    color:#FDFFFF;
+}
+ button {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: center;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    width: 202px;
+    height: 48px;
+    background: #468189;
+    box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.5);
+    border-radius: 40px;
+    align-self: center;
+    margin-left: 164px;
+    margin-top: 66px;
+    margin-bottom: 55px;
+}
+ button:hover {
+    background-color:#FFB039;
+    color:#FDFFFF;
+}
+
